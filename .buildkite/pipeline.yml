@@ -1,0 +1,9 @@
+steps:
+  - plugins:
+      sj26/secrets:
+        env:
+        - AMP_API_KEY
+      sj26/amp:
+        prompt: |
+          Tell me a story.
+
